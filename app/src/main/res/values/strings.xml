@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+
+
+
+    <string name="x">X</string>
+    <string name="o">O</string>
+
+
+
+    // Main Activity
+    <string name="welcome">welcome :)</string>
+    <string name="TTT">TIC.TAC.TOE</string>
+
+    <string-array name="mainMenu">
+        <item>Enter Names</item>
+        <item>PLAY GAME!</item>
+        <item>Show Standings</item>
+    </string-array>
+
+    // Enter Names Activity
+    <string name="enterName">Enter Player\'s Username:</string>
+    <string name="usernameHint">ENTER HERE</string>
+    <string name="usernameDescription">Instructions: \n"Username may contain letters + numbers"\nClick Save to register username into system.</string>
+    <string name="saveButton">SAVE...</string>
+    <string name="enterP2username">Enter Player 2\'s Name</string>
+
+    // Pick Opponent Activity
+    <string name="pickOpponent">Select an Opponent \nvs</string>
+    <string name="homePage">Home Page</string>
+
+    <string-array name="opponentSelection">
+        <item>vs Android Mode</item>
+        <item>2 Player Mode</item>
+    </string-array>
+
+    // Play Game Activity
+    <string name="startInstruction">Click Tile To Begin Game</string>
+    <string name="emptyTile"> </string>
+    <string name="changeOpponent">Change Opponent</string>
+    <string name="quitGame">Quit Game</string>
+
+
+    // Show Standing Activity
+    <string name="leaderboardTitle">Tic Tac Toe LeaderBoard!</string>
+    <string name="leaderboardAdvancedStats">Click username for ADVANCED STATS</string>
+    <string name="reset">RESET</string>
+    <string name="home">HOME</string>
+
+    // Advanced Stats
+    <string name="advancedStatsTitle">Advanced Stats:</string>
+    <string name="back">BACK</string>
+
+
+    // Welcome Page
+    <string name="welcome_message">Welcome to Pink n Purple \nTic Tac Toe Game.</string>
+    <string name="click_message">To Play: \n\n"PRESS ENTER"</string>
+    <string name="enter">ENTER</string>
+    <string name="credits">2022</string>
+</resources>

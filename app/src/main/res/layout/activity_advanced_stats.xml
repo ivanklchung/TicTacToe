@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout_advancedStats"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdvancedStatsActivity">
+
+    <TextView
+        android:id="@+id/textview_advancedStatsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.5"
+        android:gravity="center|center_horizontal"
+        android:text="@string/advancedStatsTitle"
+        android:textAlignment="textStart"
+        android:textColor="@color/lavender"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listView_advancedStats"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="30sp"
+        android:layout_weight="4"
+        android:background="@drawable/border"
+        android:clickable="false"
+        android:divider="@color/darkPink"
+        android:dividerHeight="3dp"
+        android:isScrollContainer="true"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="5dp"
+        android:soundEffectsEnabled="true"
+        android:textAlignment="center">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:soundEffectsEnabled="true"
+        android:text="@string/back"
+        android:textColor="@color/lavender"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

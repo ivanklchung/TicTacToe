@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout_gameBoard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hotPink"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PlayGameActivity">
+
+    <TextView
+        android:id="@+id/textView_startInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/startInstruction"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <TableLayout
+        android:id="@+id/layout_gameBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/lavender"
+        android:padding="16dp">
+
+        <TableRow
+            android:id="@+id/row_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@color/lavender"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/r1c1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner"
+                android:clickable="true"
+                android:focusable="auto"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:soundEffectsEnabled="true"
+                android:text="@string/emptyTile"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/r1c2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner"
+                android:clickable="true"
+                android:focusable="auto"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:soundEffectsEnabled="true"
+                android:text="@string/emptyTile"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/r1c3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner"
+                android:clickable="true"
+                android:focusable="auto"
+                android:focusableInTouchMode="true"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:soundEffectsEnabled="true"
+                android:text="@string/emptyTile"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="25sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/lavender"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/r2c1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner"
+                android:clickable="true"
+                android:focusable="auto"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:soundEffectsEnabled="true"
+                android:text="@string/emptyTile"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/r2c2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner"
+                android:clickable="true"
+                android:focusable="auto"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:soundEffectsEnabled="true"
+                android:text="@string/emptyTile"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/r2c3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner"
+                android:clickable="true"
+                android:focusable="auto"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:soundEffectsEnabled="true"
+                android:text="@string/emptyTile"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@color/lavender"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/r3c1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner"
+                android:clickable="true"
+                android:focusable="auto"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:soundEffectsEnabled="true"
+                android:text="@string/emptyTile"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/r3c2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner"
+                android:clickable="true"
+                android:focusable="auto"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:soundEffectsEnabled="true"
+                android:text="@string/emptyTile"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/r3c3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner"
+                android:clickable="true"
+                android:focusable="auto"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:soundEffectsEnabled="true"
+                android:text="@string/emptyTile"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="25sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_diffOpponent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/darkPink"
+        android:text="@string/changeOpponent"
+        android:textColor="@color/lavender"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_quitGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/darkPink"
+        android:text="@string/quitGame"
+        android:textColor="@color/lavender"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+</LinearLayout>

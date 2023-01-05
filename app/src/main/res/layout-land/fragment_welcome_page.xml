@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hotPink"
+    android:orientation="vertical"
+    tools:context=".WelcomePage">
+
+    <TextView
+        android:id="@+id/textView_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="150dp"
+        android:text="@string/welcome_message"
+        android:textAlignment="center"
+        android:textColor="@color/lavender"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView2_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:text="@string/click_message"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/salmonPink"
+        android:gravity="center_horizontal"
+        android:text="@string/enter"
+        android:textColor="@color/darkPink"
+        android:textSize="55sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:text="@string/credits"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+</LinearLayout>
